@@ -9,7 +9,7 @@ const App = () => {
   const [searchValue, setSearchValue] = useState([]);
 
   const getMovieRequest = async (searchValue) => {
-    const url = `http://localhost:5008/movies`;
+    const url = `https://movie-app.azurewebsites.net/movies`;
 
     const requestOptions = {
       method: 'POST',
